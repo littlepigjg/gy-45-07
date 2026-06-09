@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import { Grid3X3, Scissors, FolderKanban, Sparkles } from 'lucide-react';
+import { Grid3X3, Scissors, FolderKanban, Sparkles, Crop } from 'lucide-react';
 
 const navItems = [
   { to: '/generator', label: '精灵图生成', icon: Grid3X3 },
   { to: '/splitter', label: '精灵图拆分', icon: Scissors },
+  { to: '/cropper', label: '智能裁剪', icon: Crop },
   { to: '/library', label: '图标库管理', icon: FolderKanban },
 ];
 

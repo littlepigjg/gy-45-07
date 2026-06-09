@@ -4,6 +4,7 @@ import { ToastProvider } from '@/components/Toast';
 import ToastBridge from '@/components/ToastBridge';
 import Generator from '@/pages/Generator';
 import Splitter from '@/pages/Splitter';
+import Cropper from '@/pages/Cropper';
 import Library from '@/pages/Library';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
               <Route path="/" element={<Navigate to="/generator" replace />} />
               <Route path="/generator" element={<Generator />} />
               <Route path="/splitter" element={<Splitter />} />
+              <Route path="/cropper" element={<Cropper />} />
               <Route path="/library" element={<Library />} />
               <Route path="*" element={<Navigate to="/generator" replace />} />
             </Routes>
